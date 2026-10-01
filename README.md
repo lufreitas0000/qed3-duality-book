@@ -12,11 +12,11 @@ Part 0, Chapters A–G, is being developed in the workplace to provide the mathe
 
 The project keeps reference material in two sibling locations:
 
-- `../references/` contains the version-controlled `ref_*.md` digests that agents should read first.
-- `../References-Full/books/` contains the local full-book source PDFs kept outside Git.
-- `../References-Full/_slices/` contains generated front matter, chapter PDFs, focused section PDFs, and long-form Markdown transcriptions.
+- `../references-lightweight/` contains the version-controlled `ref_*.md` digests that agents should read first.
+- `../reference-source/books/` contains the local full-book source PDFs kept outside Git.
+- `../reference-source/_slices/` contains generated front matter, chapter PDFs, and focused section PDFs. Long-form Markdown transcriptions live in the sibling `../references-transcripts/` repository.
 
-The workplace [Chapter Slices Index](https://github.com/lufreitas0000/qed3-duality-workplace/blob/dev/refs/CHAPTER_SLICES_INDEX.md) is the main catalog for the full-book library. It records each book's contents, printed and physical PDF page coordinates, source metadata, and the relative path of every generated chapter PDF. The catalog currently covers 16 source works and 202 chapter, appendix, supplement, or solution units.
+The workplace [Chapter Slices Index](https://github.com/lufreitas0000/qed3-duality-workplace/blob/dev/refs/CHAPTER_SLICES_INDEX.md) is the main catalog for the full-book library. It records each book's contents, printed and physical PDF page coordinates, source metadata, and the relative path of every generated chapter PDF. The catalog currently covers 28 source PDFs, 16 chapter-indexed works, and 202 chapter, appendix, supplement, or solution units. The detailed transcript/status audit is [`../references-transcripts/TRANSCRIPT_TOC_STATUS.md`](../references-transcripts/TRANSCRIPT_TOC_STATUS.md).
 
 ## Repository layout
 
@@ -33,7 +33,7 @@ The workplace [Chapter Slices Index](https://github.com/lufreitas0000/qed3-duali
 Material enters this repository only after it has:
 
 1. been derived in a module under `workplace/src/`;
-2. used the reference digests in the sibling `references/` repository and audited any necessary source equations;
+2. used the reference digests in the sibling `references-lightweight/` repository and audited any necessary source equations;
 3. passed the applicable mathematical, symbolic, numerical, and LaTeX checks;
 4. reached `VERIFIED` status in the workplace; and
 5. been rewritten as a continuous pedagogical chapter rather than copied as research notes.
