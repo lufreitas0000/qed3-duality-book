@@ -13,9 +13,10 @@ Part 0, Chapters A–G, is being developed in the workplace to provide the mathe
 The project keeps reference material in two sibling locations:
 
 - `../references/` contains the version-controlled `ref_*.md` digests that agents should read first.
-- `../References-Full/` contains the local full-book PDFs and generated chapter slices kept outside Git.
+- `../References-Full/books/` contains the local full-book source PDFs kept outside Git.
+- `../References-Full/_slices/` contains generated front matter, chapter PDFs, focused section PDFs, and long-form Markdown transcriptions.
 
-The workplace [Chapter Slices Index](https://github.com/lufreitas0000/qed3-duality-workplace/blob/dev/refs/CHAPTER_SLICES_INDEX.md) is the main catalog for the full-book library. It records each book's contents, printed and physical PDF page coordinates, source metadata, and the relative path of every generated chapter PDF.
+The workplace [Chapter Slices Index](https://github.com/lufreitas0000/qed3-duality-workplace/blob/dev/refs/CHAPTER_SLICES_INDEX.md) is the main catalog for the full-book library. It records each book's contents, printed and physical PDF page coordinates, source metadata, and the relative path of every generated chapter PDF. The catalog currently covers 16 source works and 202 chapter, appendix, supplement, or solution units.
 
 ## Repository layout
 
