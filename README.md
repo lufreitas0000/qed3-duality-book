@@ -8,6 +8,15 @@ The repository is presently a book scaffold. The chapter directories and baselin
 
 Part 0, Chapters A–G, is being developed in the workplace to provide the mathematical and physical toolkit needed by the main argument. The baseline plan for Chapters 1–9 remains available in [`doc/TOC_1.0.0.md`](doc/TOC_1.0.0.md); it will be revised here when verified Part 0 material is ready to migrate.
 
+## Reference library
+
+The project keeps reference material in two sibling locations:
+
+- `../references/` contains the version-controlled `ref_*.md` digests that agents should read first.
+- `../References-Full/` contains the local full-book PDFs and generated chapter slices kept outside Git.
+
+The workplace [Chapter Slices Index](https://github.com/lufreitas0000/qed3-duality-workplace/blob/dev/refs/CHAPTER_SLICES_INDEX.md) is the main catalog for the full-book library. It records each book's contents, printed and physical PDF page coordinates, source metadata, and the relative path of every generated chapter PDF.
+
 ## Repository layout
 
 | Path | Purpose |
